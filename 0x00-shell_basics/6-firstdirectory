@@ -1,4 +1,3 @@
 #!/bin/bash
 mkdir /tmp/my_first_directoy
-echo "Directory /tmp/my_first_directory created successfully"
 
