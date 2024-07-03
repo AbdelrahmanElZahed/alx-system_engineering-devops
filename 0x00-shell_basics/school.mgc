@@ -1,2 +1,3 @@
 #!/bin/bash
-file -e soft "School data" -e mime "application/school-data" -b
+0 string SCHOOL School data
+!:mime School
