@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -print -o -type f -empty -print | awk -F/ '{print $NF}' | sort
+find . -type d -empty -exec sh -c 'printf "%s\n" "${1##*/}"' sh {} \; -o -type f -empty -exec sh -c 'printf "%s\n" "${1##*/}"' sh {} \; | sort
