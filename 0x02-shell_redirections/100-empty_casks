@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -exec sh -c 'printf "%s\n" "${1##*/}"' sh {} \; -o -type f -empty -exec sh -c 'printf "%s\n" "${1##*/}"' sh {} \; | sort
+find . -empty | rev | cut -d '/' -f1 | rev
