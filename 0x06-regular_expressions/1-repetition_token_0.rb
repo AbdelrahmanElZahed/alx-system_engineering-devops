@@ -2,7 +2,7 @@
 # This script checks if the given string matches the regex pattern
 
 # Regular expression pattern
-pattern = /^hbtt{2,5}n$/
+pattern = /^hbtt{2,4}n$/
 
 # Accepts one argument
 input = ARGV[0]
